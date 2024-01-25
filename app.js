@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 5500;
 
 app.get('/', function (req, res) {
-    res.send('Hello World from Express.  I\'m Jacob and I\'m a type 2 personality in the Enneagram test')
+    res.send('Hello World from Express!  I\'m Jacob and I\'m a type 2W3 personality in the Enneagram test. It says I am sociable, ambitious, and an excellent team player!')
 })
 
 
